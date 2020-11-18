@@ -20,8 +20,6 @@ namespace appTestMetodoEvento
             InitializeComponent();
         }
 
-
-
         //private void btn0_Click(object sender, EventArgs e)
         //{
         //    lblNumeros.Text += "0";
@@ -34,9 +32,182 @@ namespace appTestMetodoEvento
 
         private void MiMetodo_Click(object sender, EventArgs e)
         {
+            double resultado;
             string textoBoton = ((Button)sender).Text;
             switch (textoBoton)
             {
+                case "R":
+                    if (lblNumeros.Text == "")
+                    {
+                        break;
+                    }
+                    valor1 = double.Parse(lblNumeros.Text);
+                    resultado = Math.Sqrt(valor1);
+                    lblNumeros.Text = resultado + "";
+                    break;
+                case "Log":
+                    if (lblNumeros.Text == "")
+                    {
+                        break;
+                    }
+                    valor1 = double.Parse(lblNumeros.Text);
+                    resultado = Math.Log(valor1);
+                    lblNumeros.Text = resultado + "";
+                    break;
+                case "Sin":
+                    if (lblNumeros.Text == "")
+                    {
+                        break;
+                    }
+                    valor1 = double.Parse(lblNumeros.Text);
+                    resultado = Math.Sin(valor1);
+                    lblNumeros.Text = resultado + "";
+                    break;
+                case "Cos":
+                    if (lblNumeros.Text == "")
+                    {
+                        break;
+                    }
+                    valor1 = double.Parse(lblNumeros.Text);
+                    resultado = Math.Cos(valor1);
+                    lblNumeros.Text = resultado + "";
+                    break;
+                case "Tan":
+                    if (lblNumeros.Text == "")
+                    {
+                        break;
+                    }
+                    valor1 = double.Parse(lblNumeros.Text);
+                    resultado = Math.Tan(valor1);
+                    lblNumeros.Text = resultado + "";
+                    break;
+                case "Tanh":
+                    if (lblNumeros.Text == "")
+                    {
+                        break;
+                    }
+                    valor1 = double.Parse(lblNumeros.Text);
+                    resultado = Math.Tanh(valor1);
+                    lblNumeros.Text = resultado + "";
+                    break;
+                case "Cosh":
+                    if (lblNumeros.Text == "")
+                    {
+                        break;
+                    }
+                    valor1 = double.Parse(lblNumeros.Text);
+                    resultado = Math.Cosh(valor1);
+                    lblNumeros.Text = resultado + "";
+                    break;
+                case "Exp":
+                    if (lblNumeros.Text == "")
+                    {
+                        break;
+                    }
+                    valor1 = double.Parse(lblNumeros.Text);
+                    resultado = Math.Exp(valor1);
+                    lblNumeros.Text = resultado + "";
+                    break;
+                case "Log10":
+                    if (lblNumeros.Text == "")
+                    {
+                        break;
+                    }
+                    valor1 = double.Parse(lblNumeros.Text);
+                    resultado = Math.Log10(valor1);
+                    lblNumeros.Text = resultado + "";
+                    break;
+                case "Truncate":
+                    if (lblNumeros.Text == "")
+                    {
+                        break;
+                    }
+                    valor1 = double.Parse(lblNumeros.Text);
+                    resultado = Math.Truncate(valor1);
+                    lblNumeros.Text = resultado + "";
+                    break;
+                case "Ceiling":
+                    if (lblNumeros.Text == "")
+                    {
+                        break;
+                    }
+                    valor1 = double.Parse(lblNumeros.Text);
+                    resultado = Math.Ceiling(valor1);
+                    lblNumeros.Text = resultado + "";
+                    break;
+                case "Asin":
+                    if (lblNumeros.Text == "")
+                    {
+                        break;
+                    }
+                    valor1 = double.Parse(lblNumeros.Text);
+                    resultado = Math.Asin(valor1);
+                    lblNumeros.Text = resultado + "";
+                    break;
+                case "Atan":
+                    if (lblNumeros.Text == "")
+                    {
+                        break;
+                    }
+                    valor1 = double.Parse(lblNumeros.Text);
+                    resultado = Math.Atan(valor1);
+                    lblNumeros.Text = resultado + "";
+                    break;
+                case "Abs":
+                    if (lblNumeros.Text == "")
+                    {
+                        break;
+                    }
+                    valor1 = double.Parse(lblNumeros.Text);
+                    resultado = Math.Abs(valor1);
+                    lblNumeros.Text = resultado + "";
+                    break;
+                case "Floor":
+                    if (lblNumeros.Text == "")
+                    {
+                        break;
+                    }
+                    valor1 = double.Parse(lblNumeros.Text);
+                    resultado = Math.Floor(valor1);
+                    lblNumeros.Text = resultado + "";
+                    break;
+                case "Sign":
+                    if (lblNumeros.Text == "")
+                    {
+                        break;
+                    }
+                    valor1 = double.Parse(lblNumeros.Text);
+                    resultado = Math.Sign(valor1);
+                    lblNumeros.Text = resultado + "";
+                    break;
+                case "Round":
+                    if (lblNumeros.Text == "")
+                    {
+                        break;
+                    }
+                    valor1 = double.Parse(lblNumeros.Text);
+                    resultado = Math.Round(valor1);
+                    lblNumeros.Text = resultado + "";
+                    break;
+                case "Acos":
+                    if (lblNumeros.Text == "")
+                    {
+                        break;
+                    }
+                    valor1 = double.Parse(lblNumeros.Text);
+                    resultado = Math.Acos(valor1);
+                    lblNumeros.Text = resultado + "";
+                    break;
+                case "Acos":
+                    if (lblNumeros.Text == "")
+                    {
+                        break;
+                    }
+                    valor1 = double.Parse(lblNumeros.Text);
+                    resultado = Math.(valor1);
+                    lblNumeros.Text = resultado + "";
+                    break;
+
                 case "+":
                     if (lblNumeros.Text == "")
                     {
