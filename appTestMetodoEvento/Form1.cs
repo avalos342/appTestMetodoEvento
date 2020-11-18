@@ -198,15 +198,6 @@ namespace appTestMetodoEvento
                     resultado = Math.Acos(valor1);
                     lblNumeros.Text = resultado + "";
                     break;
-                case "Acos":
-                    if (lblNumeros.Text == "")
-                    {
-                        break;
-                    }
-                    valor1 = double.Parse(lblNumeros.Text);
-                    resultado = Math.(valor1);
-                    lblNumeros.Text = resultado + "";
-                    break;
 
                 case "+":
                     if (lblNumeros.Text == "")
